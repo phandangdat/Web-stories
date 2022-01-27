@@ -1,0 +1,23 @@
+.carousel-item{
+    text-align: center;
+}
+.section-heading a {
+    float: right;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #f33f3f;
+}
+.card-img-overlay{
+    margin-top: 62%;
+}
+
+.card{
+    margin-left: 30px;
+}
+
+.card-title, .card-subtitle, .card-text{
+    background-color: coral;
+    opacity: 0.9;
+}

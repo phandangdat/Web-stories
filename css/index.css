@@ -1,0 +1,132 @@
+li {
+    list-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+h6{
+    color: blanchedalmond;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+}
+
+p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* header */
+
+#navbarResponsive {
+    margin-right: 2%;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* .nav-link:hover{
+    color: #f33f3f;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #f33f3f;
+} */
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+#navbarResponsive li:hover .sub-menu{
+    display: block;
+    z-index: 99999;
+}
+.sub-menu li {
+    margin-left: 0 !important;
+    background-color: #212529;
+    width: 150px;
+   }
+.sub-menu li a{
+    color: chartreuse;
+    text-align: center;
+    font-size: 18;
+}
+#footer, .headerNav{
+    background-color: #212529;
+}
+/* footer */
+
+.link-footer{
+    margin-left: -45px;    
+}
+
+#logoFooter{
+    width: 80%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+}
+
+.link-footer a {
+    color: rgb(123, 255, 233);
+}
+.link-footer a:hover{
+    color: rgb(0, 255, 55);
+    font-size: 15px;
+}
+#footer p{
+    color: rgb(123, 255, 233);
+}
+
+.social a i{
+    font-size: 35px;
+    letter-spacing: 20px;
+}
+
+.form-footer input[type="text"] {
+    border: none;
+    font-size: 15px;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+/* border-radius dùng để điểu chỉnh độ bo cong của viền */
+.btn-footer {
+    color: rgb(123, 255, 233);
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+.navbar-toggler-icon{
+    background-color: rgb(0, 255, 115);
+}
+.navbar-toggler-icon i{
+    margin-top: 20%;
+}
